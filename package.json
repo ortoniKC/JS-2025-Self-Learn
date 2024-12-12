@@ -1,0 +1,25 @@
+{
+  "name": "letcode-with-koushik-learning-materials-2025",
+  "version": "1.0.0",
+  "description": "This project contains a series of JavaScript tasks designed to help you practice and improve your JavaScript skills",
+  "scripts": {
+    "format": "npx prettier --write \"src/tasks/*.js\"",
+    "test:variables": "mocha src/test/01_variables.test.js",
+    "test:primitive-types": "mocha src/test/02_primitive_types.test.js",
+    "test:loops-conditionals": "mocha src/test/03_loops_conditionals.test.js",
+    "test:strings": "mocha src/test/04_strings.test.js",
+    "test:arrays": "mocha src/test/05_arrays.test.js",
+    "test:functions": "mocha src/test/06_functions.test.js",
+    "test:classes-objects": "mocha src/test/07_classes_objects.test.js",
+    "test:callbacks-promises": "mocha src/test/08_callbacks_promises.test.js",
+    "test:object-manipulation": "mocha src/test/09_object_manipulation.test.js",
+    "test:error-handling": "mocha src/test/10_error_handling.test.js"
+  },
+  "keywords": ["letcode with koushik", "letcode", "JavaScript", "js"],
+  "author": "LetCode with Koushik & Kurimurai (Koushik Chatterjee)",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^11.0.1",
+    "prettier": "^3.4.2"
+  }
+}
